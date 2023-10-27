@@ -119,12 +119,12 @@ class Program
                 //    Console.WriteLine("Edad no válida. Intente nuevamente.");
                 //}
 
-                //Console.Write("¿Si de sea agregar mas estudiante presione (S) y si ya no de sea ingresar presione (N): ");
-                //var respuesta = Console.ReadLine();
-                //if (respuesta?.Trim().ToLower() != "s")
-                //{
-                //    break;
-                //}
+                Console.Write("¿Si de sea agregar mas estudiante presione (S) y si ya no de sea ingresar presione (N): ");
+                var respuesta = Console.ReadLine();
+                if (respuesta?.Trim().ToLower() != "s")
+                {
+                    break;
+                }
             }
         }
     }

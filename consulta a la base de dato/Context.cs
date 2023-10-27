@@ -1,5 +1,8 @@
 ﻿using consulta_a_la_base_de_dato;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 public class Context : DbContext
 {

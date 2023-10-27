@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
-using Guia-7-Entity-Framework;
+using consulta_a_la_base_de_dato;
 
 class Program
 {
